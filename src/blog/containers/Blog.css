@@ -1,0 +1,59 @@
+.Background_news_home{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background: #fff;
+  transition: all 0.5s 0s linear;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.Home_News_bgr{
+  background: #fff;
+}
+.Hot_topics_news_images_titlesc strong{
+  display: none;
+}
+.Hot_topics_news_images_titlesc span{
+   font-size: 12px !important;
+   color: rgb(15, 23, 36)!important;
+}
+.Hot_topics_news_images_titlesc figcaption{
+  font-size: 13px;
+  margin-top: 13px;
+}
+.Hashtag_padding_btnMms_img_none strong{
+  display: none;
+}
+.Hashtag_padding_btnMms_img_none table{
+  display: none;
+}
+.Hashtag_padding_btnMms_img_none a{
+  display: none;
+}
+.Hashtag_padding_btnMms_img_none figure{
+  display: none;
+}
+.Hashtag_padding_btnMms_img_none h2{
+  display: none;
+}
+.Hashtag_padding_btnMms_img_none{
+  -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    display: -webkit-box;
+    font-size: 13px !important;
+    text-align: left;
+}
+.Section_column_img_bhj_all_icongo_content h2{
+  margin: 0;
+  display: none;
+}
+.text_index_p2 h2{
+  display: none;
+}
+.HTALLsssp h2{
+  display: none;
+}
+.HTALLsssp span{
+  font-size: 12px !important;
+}

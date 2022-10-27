@@ -1,0 +1,123 @@
+.Adminstrationcss{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100vh;
+	background: rgba( 255, 255, 255, 0.6 );
+	backdrop-filter: blur( 20px );
+	-webkit-backdrop-filter: blur( 20px );
+}
+.Adminstrationdetails__Background{
+	background-image: url(../../../images/picture/1925040.webp);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.Adminstrationdetails{
+	width: 100%;
+	height: 100%;
+}
+.NewsHistory__back{
+	cursor: pointer;
+	display: flex;
+	grid-gap: 10px;
+	border-radius: 6px;
+	align-items: center;
+	border: none;
+	box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+	font-weight: 500;
+	color: rgb(40, 48, 76);
+	transition: all 0.3s;
+	padding: 12px 18px;
+	background: rgba(65, 158, 102, 1);
+	font-weight: bold;
+	color: #fff;
+	transition: 0.3s all;
+	font-size: 20px;
+}
+.NewsHistory__back:hover{
+	filter: contrast(0.95) brightness(1.3) saturate(1.1);
+}
+.Button__ADMIN{
+	background: #fff;
+    cursor: pointer;
+    color: rgb(40, 48, 76);
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    grid-gap: 6px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    justify-content: space-between;
+    transition: all 0.3s;
+    outline: none;
+}
+.News__history__ADD__POST__IO {
+    color: hsl(214, 89%, 52%);
+    font-size: 21px;
+}
+.utilities1{
+	background: rgba(171, 148, 251, 1);
+	font-size: 24px;
+	padding: 6px;
+	color: #fff;
+	border-radius: 50%;
+	transition: all 0.3s;
+}
+.utilities1:hover{
+	filter: contrast(0.95) brightness(1.3) saturate(1.1);
+}
+.utilities2{
+	background: rgba(255, 142, 58, 1);
+	font-size: 24px;
+	padding: 6px;
+	color: #fff;
+	border-radius: 50%;
+	transition: all 0.3s;
+}
+.utilities2:hover{
+	filter: contrast(0.95) brightness(1.3) saturate(1.1);
+}
+.utilities3{
+	background: rgba(0, 201, 255, 1);
+	font-size: 24px;
+	padding: 6px;
+	color: #fff;
+	border-radius: 50%;
+	transition: all 0.3s;
+}
+.utilities3:hover{
+	filter: contrast(0.95) brightness(1.3) saturate(1.1);
+}
+.NewsHistory__Eddit{
+	background: rgba(65, 158, 102, 1);
+	color: #fff;
+	font-size: 24px;
+	padding: 6px;
+	border-radius: 50%;
+}
+
+.NewsHistory__Views{
+	background: hsl(214, 89%, 52%);
+	color: #fff;
+	font-size: 24px;
+	padding: 6px;
+	border-radius: 50%;
+}
+.NewsHistory__DElete{
+	background: rgba(255, 61, 94, 1);
+	color: #fff;
+	font-size: 24px;
+	padding: 6px;
+	border-radius: 50%;
+}
+.NewsHistory__More{
+	background: rgba(171, 148, 251, 1);
+	color: #fff;
+	font-size: 24px;
+	padding: 6px;
+	border-radius: 50%;
+}

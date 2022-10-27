@@ -1,0 +1,39 @@
+.wrapmd {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  visibility: hidden;
+  opacity: 0;
+  z-index: -10;
+  transition: 0.3s;
+}
+
+.wrapmd.show {
+  visibility: visible;
+  opacity: 1;
+  z-index: 999;
+  display: block;
+}
+
+.layer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: #000;
+  opacity: 0.7;
+}
+
+.pop-wrap {
+  position: absolute;
+  transition: transform 0.3s;
+  transform: translateY(-10px);
+}
+
+.pop-wrap.show {
+  transform: translateY(0);
+}

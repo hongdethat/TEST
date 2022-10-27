@@ -1,0 +1,9 @@
+.xxxxxxp{
+	font-size: 12px;
+}
+.TimeoutFlex{
+	font-size: 12px;
+	display: flex;
+	flex-direction: row;
+	grid-gap: 6px;
+}

@@ -1,0 +1,47 @@
+.S__background__Header{
+	background: #efefef;
+	backdrop-filter: blur(21px);
+	position: fixed;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 8rem;
+	top: 0;
+	box-shadow: 0 4px 8px rgb(0 0 0 / 5%);
+	z-index: 1;
+}
+.S__background__icon{
+	background: #fff;
+	color: #000;
+	width: 40px;
+	height: 40px;
+	padding: 8px;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: all .3s;
+	box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+}
+.S__background__icon:hover{
+	background: contrast(0.95) brightness(1.3) saturate(1.1);
+}
+.S__flex__Header{
+	display: flex;
+	align-items: center;
+	grid-gap: 1rem;
+}
+.S__Login__Header{
+	display: flex;
+	grid-gap: 0.5rem;
+	align-items: center;
+	font-size: 14px;
+}
+.S__Login__Header span{
+	cursor: pointer;
+}
+.S__margin__right{
+	margin-right: 18rem;
+}
+.S__Login__Header__container{
+	opacity: 0.3;
+}

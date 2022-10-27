@@ -1,0 +1,14 @@
+.VideoAdminstration__background__all{
+	flex-direction: column;
+    background: rgba( 255, 255, 255, 0.25 );
+    padding: 25px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    border-radius: 24px;
+}
+.VideoAdminstration__all{
+	margin: 2rem;
+}
+.VideoAdminstration__all__flex__row{
+	display: flex;
+	flex-direction: row;
+}

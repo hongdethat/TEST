@@ -1,0 +1,108 @@
+.dropdown__SMENU li{
+  list-style: none;
+}
+.menus-dropdown__SMENU, .menus-megamenus{
+  list-style: none;
+}
+.primary-menus{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-gap: 2rem;
+  padding-top: 5.6rem;
+  width: 100%;
+}
+.menus-dropdown__SMENU a{
+  display: flex;
+  align-items: center;
+  grid-gap: 3px;
+}
+.blocks-menus .primary-menus li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 12px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  grid-gap: 3px;
+}
+.blocks-menus .primary-menus li a:hover {
+  color: rgba(46, 161, 138, 1);
+}
+.blocks-menus .menus-dropdown__SMENU:hover .dropdown__SMENU {
+  visibility: visible;
+  opacity: 1;
+}
+.blocks-menus .dropdown__SMENU {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  border: 1px solid #ECECEC;
+  padding: 10px 30px;
+  z-index: 999;
+  background: white;
+  width: 150px;
+  margin-top: 10px;
+  box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+}
+.blocks-menus .dropdown__SMENU li {
+  line-height: 30px;
+  float: none;
+}
+.blocks-menus .dropdown__SMENU a {
+  font-size: 11px;
+  font-weight: normal;
+}
+.blocks-menus .menus-dropdown__SMENU {
+  position: relative;
+}
+.blocks-menus .menus-megamenus:hover .mega-menus {
+  opacity: 1;
+  visibility: visible;
+}
+
+.blocks-menus .mega-menus {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 15px auto;
+  width: 80%;
+  border: 1px solid #ECECEC;
+  padding: 0 15px;
+  min-height: 330px;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  background: #fff;
+  box-shadow: 0 1px 8px rgb(0 0 0 / 30%);
+  border-radius: 10px;
+  z-index: 1;
+}
+.blocks-menus .mega-menus li {
+  float: none;
+  text-align: left;
+  padding: 0;
+  list-style: none;
+}
+.blocks-menus .section {
+  float: left;
+  margin: 35px 15px;
+}
+.blocks-menus .section h3 {
+  font-family: "Lato", sans-serif;
+  position: relative;
+  font-size: 16px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid #d6d6d6;
+}

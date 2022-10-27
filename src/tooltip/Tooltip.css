@@ -1,0 +1,24 @@
+.mau_nen_tt{
+	color: rgb(146, 171, 207);
+}
+.test_tt{
+	box-shadow: 0 4px 6px rgb(0 0 0 / 15%) !important;
+	border-radius: 6px !important;
+	background: rgb(37, 54, 78, 0.8) !important;
+}
+.yesaa_Aa{
+	/*border: 3px solid rgb(37, 54, 78) !important;*/
+	padding: 0 !important;
+}
+.test_ttt{
+	box-shadow: 0 4px 6px rgb(0 0 0 / 15%) !important;
+	border-radius: 6px !important;
+	background: rgb(255, 255, 255) !important;
+	/*backdrop-filter: blur(21px);*/
+}
+
+.__react_component_tooltip.show{
+	opacity: 1 !important;
+	border: 2px solid rgb(15, 23, 36, 0.1);
+	box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+}

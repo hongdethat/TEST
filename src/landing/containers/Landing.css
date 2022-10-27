@@ -1,0 +1,12 @@
+.Landingbackground {
+  width: 100%;
+  height: auto;
+  background: #fff;
+/*  background-image: -webkit-radial-gradient(top center, ellipse cover, rgb(4, 12, 24, 0.4) 0%, rgb(4, 12, 24, 0.4) 100%), url("../../images/picture/visao.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  z-index: 1;
+  transition: all 0.5s 0s linear;
+}

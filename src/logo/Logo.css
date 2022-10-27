@@ -1,0 +1,33 @@
+.logo{
+    display:inline-block; 
+    position:relative; 
+    cursor:pointer;
+    top: 0;
+    font-family:"Montserrat", sans-serif;
+}
+.F__Logo__text{
+    font-weight: bold;
+}
+.l__text__color{
+    background: linear-gradient(65deg,#11ece5 30%, orange 114%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo .text{
+    overflow: hidden;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.Flex__logo{
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+    inline-size: max-content;
+}
+.text{
+    text-align: center;
+}

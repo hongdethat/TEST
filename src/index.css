@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+html body::-webkit-scrollbar {
+    width: 13px;
+}
+
+html body::-webkit-scrollbar-track {
+    background-color: rgb(37, 54, 78);
+}
+
+html body::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: rgb(17, 28, 46);
+    padding: 0 2px;
+    cursor: pointer;
+}
+
+figcaption{
+  text-align: left;
+  font-size: 11px;
+  line-height: 18px;
+}
+
+figure{
+  margin: 0;
+}
+
+img{
+  width: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+a{
+  text-decoration: none;
+  transition: all 0.3s;
+  color: rgb(15, 23, 36);
+}
+
+p{
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}

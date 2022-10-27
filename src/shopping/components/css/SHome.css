@@ -1,0 +1,98 @@
+.S__Home__Demo{
+	padding: 0.6rem 8rem;
+}
+.S__Home_img{
+	border-radius: 56px;
+	width: 100%;
+	height: 100%;
+	max-height: 500px;
+}
+.background__Shop{
+	background: #fcfaf6;
+}
+.S__Home__img__all{
+	position: relative;
+}
+.S__Home__text{
+	position: absolute;
+	padding: 2rem;
+	top: 100px;
+	left: 0;
+}
+.S__Home__text h1{
+	color: #fff;
+	font-size: 48px;
+	margin: 0;
+}
+.S__Home__text h4{
+	color: #fff;
+	font-weight: normal;
+	font-size: 24px;
+	margin-top: 15px;
+}
+.S__Home_box{
+	display: flex;
+	flex-direction: row;
+	grid-gap: 2rem;
+	width: 100%;
+	margin-top: 2rem;
+}
+.S__Home__box__SHOP{
+	background: rgb(15, 23, 36, 0.1);
+	display: flex;
+	flex-direction: row;
+	padding: 35px;
+	border-radius: 16px;
+	justify-content: space-between;
+	grid-gap: 1rem;
+	width: 100%;
+}
+.S__Home__box__SHOP_1{
+	font-weight: bold;
+	font-size: 26px;
+	margin-bottom: 15px;
+}
+.S__Home__box__SHOP_2{
+	line-height: 21px;
+}
+.S__box__img{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+}
+.S__flex__tex__box{
+	display: flex;
+	flex-direction: column;
+	padding-top: 6rem;
+}
+.S__Text__border{
+	color: #fff;
+	text-shadow:
+		-1px -1px 0 rgba(46, 161, 138, 1),  
+		1px -1px 0 rgba(46, 161, 138, 1),
+		-1px 1px 0 rgba(46, 161, 138, 1),
+		1px 1px 0 rgba(46, 161, 138, 1);
+	margin: 0;
+}
+.S__Text__sale{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.S__Text__sale__Flash{
+	color: rgba(46, 161, 138, 1);
+	margin: 0;
+}
+.S__btn__show{
+	color: rgba(46, 161, 138, 1);
+	border: 2px solid rgba(46, 161, 138, 1);
+	background: transparent;
+	border-radius: 10px;
+	padding: 10px 40px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.S__pass__2__container{
+	margin-top: 5rem;
+}

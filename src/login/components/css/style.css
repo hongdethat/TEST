@@ -1,0 +1,46 @@
+.Login__img__page{
+	width: 100%;
+	height: 100%;
+	border-radius: 0 !important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+}
+.Login__box__shadow{
+	background: rgb(255, 255, 255, 0.1);
+	backdrop-filter:  blur(10px);
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	grid-gap: 20px;
+	margin: 2rem 6rem;
+	padding: 2rem;
+}
+.Login__land__form__input{
+	display: flex;
+	justify-content: center;
+}
+.Login__input__form{
+	border: none;
+	outline: none;
+	border-radius: 6px;
+	padding-left: 10px;
+	font-size: 13px;
+	border: 1px solid rgb(255, 255, 255, 0.1);
+	background: transparent;
+	width: 100%;
+	height: 100%;
+}
+.Login__input__form[type=email]:focus{
+	border: 3px solid rgb(17, 236, 229);
+}
+.Login__input__form[type=password]:focus{
+	border: 3px solid rgb(17, 236, 229);
+}
+.Login__size{
+	width: 400px;
+	height: 50px;
+}

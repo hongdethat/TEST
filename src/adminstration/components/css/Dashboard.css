@@ -1,0 +1,151 @@
+.Dashboard_icon{
+	cursor: pointer;
+}
+.Dashboard_icon_fl{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 15px;
+}
+.Dashboard_icon_fl5{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 100%;
+}
+.closemenu{
+/*	display: flex;
+	width: 100%;
+	justify-content: center;*/
+}
+.ADmenu__ceneter__icon{
+	display: flex;
+	justify-content: center;
+}
+.Header_admin_img_ixon{
+	font-size: 30px;
+	margin-bottom: 13.5px;
+	transition: all 0.3s;
+	margin-top: 13.5px;
+	color: rgb(40, 48, 76);
+}
+.Header_admin_img_ixon5{
+	font-size: 30px;
+	margin-bottom: 13.5px;
+	transition: all 0.3s;
+	margin-top: 13.5px;
+	color: rgb(40, 48, 76);
+}
+.Header_admin_img_ixon:hover{
+	color: hsl(214, 89%, 52%);
+}
+.pro-sidebar > .pro-sidebar-inner{
+	background: transparent !important;
+}
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item:focus{
+	color: rgb(40, 48, 76) !important;
+}
+.pro-sidebar{
+	color: rgb(40, 48, 76) !important;
+	font-weight: 600;
+}
+.pro-sidebar .pro-menu a{
+	color: rgb(40, 48, 76) !important;
+}
+.pro-sidebar .pro-menu a:hover{
+	color: hsl(214, 89%, 52%) !important;
+}
+.Dashboard_icon_span{
+	color: rgb(40, 48, 76);
+	font-weight: bold;
+}
+.pro-sidebar .pro-menu .pro-menu-item.pro-sub-menu > .pro-inner-item > .pro-arrow-wrapper .pro-arrow{
+	border-color: rgb(40, 48, 76) !important;
+}
+.pro-sidebar.collapsed .pro-menu > ul > .pro-menu-item.pro-sub-menu .pro-inner-list-item .pro-sub-menu-item, .pro-sidebar.collapsed .pro-menu > ul > .pro-menu-item.pro-sub-menu .pro-inner-list-item .pro-inner-item{
+	border-radius: 24px !important;
+}
+.pro-sidebar.collapsed .pro-menu > ul > .pro-menu-item.pro-sub-menu > .pro-inner-list-item > .popper-inner{
+	padding-left: 0 !important;
+	padding: 0 15px !important;
+}
+.pro-sidebar.collapsed .pro-menu > ul > .pro-menu-item.pro-sub-menu .pro-inner-list-item .pro-sub-menu-item, .pro-sidebar.collapsed .pro-menu > ul > .pro-menu-item.pro-sub-menu .pro-inner-list-item .pro-inner-item{
+	padding: 8px 16px !important;
+	text-align: left;
+}
+.pro-sidebar .pro-menu .pro-menu-item.pro-sub-menu .pro-inner-list-item .pro-inner-item{
+	padding: 8px 15px !important;
+	border-radius: 24px !important;
+}
+.pro-sidebar .pro-menu .pro-menu-item.pro-sub-menu .pro-inner-list-item{
+	padding-right: 24px;
+}
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item{
+	transition: all 0.3s;
+}
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item:hover{
+	background: rgb(0, 0, 0, 0.1);
+	color: hsl(214, 89%, 52%);
+}
+.pro-sidebar .pro-menu.shaped .pro-menu-item > .pro-inner-item > .pro-icon-wrapper{
+	background-color: rgba(60,64,67,0.08) !important;
+	border-radius: 50%;
+}
+.pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item{
+	background: transparent;
+}
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item > .pro-item-content{
+	font-weight: normal;
+}
+.Dashboard_icon_span_btn{
+	display: flex;
+	flex-direction: row;
+	grid-gap: 6px;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	margin-bottom: 15px;
+	border: none;
+	box-shadow: 0 1px 4px 0 rgb(60 64 67 / 30%);
+	padding: 12px 20px;
+	border-radius: 24px;
+	white-space: nowrap;
+	font-size: 14px;
+	text-transform: uppercase;
+	background:  hsl(214, 89%, 52%);
+	color: #fff;
+}
+.Dashboard_icon_span_spa{
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+/*.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout .pro-sidebar-header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}*/
+.Dashboard_icon_flexbar{
+	display: flex;
+	height: 100%;
+}
+.pro-sidebar.collapsed .pro-menu > ul > .pro-menu-item.pro-sub-menu > .pro-inner-list-item > .popper-inner{
+	background: #fff;
+	border: 1px solid rgb(228, 230, 235);
+}
+.Dashboard_icon_flexbar_baidang{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+.Dashboard_icon_span_height{
+	height: 100%;
+	max-height: 100%;
+}
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout{
+	min-height: 100%;
+	max-height: 100%;
+}
